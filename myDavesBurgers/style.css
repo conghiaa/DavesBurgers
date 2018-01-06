@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 10px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+header.main_header {
+  height: 180px;
+  text-align: center;
+}
+.main_header img {
+  width: 180px;
+  height: 60px;
+}
+.main_header li {
+  list-style: none;
+}
+.main_header a {
+  text-decoration: none;
+  color: Grey;
+}
+
+section.order {
+  margin-top: 20px;
+  text-align: center;
+  max-height: 400px;
+  overflow: scroll;
+}
+.order header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg");
+  background-size: cover;
+  background-position: center center;
+  height: 320px;
+}
+.order header h1{
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  background-color: #34A6A8;
+  color: white;
+  padding: 16px;
+}
+p {
+  font-weight: 200;
+  color: grey;
+  padding: 20px;
+}
+#order_now {
+  display: inline-block;
+  color: #34A6A8;
+  text-transform: capitalize;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 16px 40px;
+}
+#order_now:hover {
+  background-color: #34A6A8;
+  color: #fff;
+  border: 1px solid #34A6A8;
+}
